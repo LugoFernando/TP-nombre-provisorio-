@@ -1,4 +1,4 @@
-package com.tallerwebi.presentacion;
+package com.comic.entidades;
 
 public class DatosLogin {
     private String email;

@@ -1,8 +1,9 @@
-package com.tallerwebi.dominio.excepcion;
+package com.comic.servicios.implementacion;
 
-import com.tallerwebi.dominio.RepositorioUsuario;
-import com.tallerwebi.dominio.ServicioLogin;
-import com.tallerwebi.dominio.Usuario;
+import com.comic.repositorios.RepositorioUsuario;
+import com.comic.dominio.excepcion.UsuarioExistente;
+import com.comic.entidades.Usuario;
+import com.comic.servicios.ServicioLogin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

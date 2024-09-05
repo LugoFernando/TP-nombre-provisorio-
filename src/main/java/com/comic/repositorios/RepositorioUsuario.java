@@ -1,4 +1,6 @@
-package com.tallerwebi.dominio;
+package com.comic.repositorios;
+
+import com.comic.entidades.Usuario;
 
 public interface RepositorioUsuario {
 

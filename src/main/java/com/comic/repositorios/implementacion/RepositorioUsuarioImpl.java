@@ -1,7 +1,7 @@
-package com.tallerwebi.infraestructura;
+package com.comic.repositorios.implementacion;
 
-import com.tallerwebi.dominio.RepositorioUsuario;
-import com.tallerwebi.dominio.Usuario;
+import com.comic.entidades.Usuario;
+import com.comic.repositorios.RepositorioUsuario;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
@@ -15,7 +15,6 @@ public class RepositorioUsuarioImpl implements RepositorioUsuario {
 
     @Autowired
     public RepositorioUsuarioImpl(SessionFactory sessionFactory){
-
         this.sessionFactory = sessionFactory;
     }
 

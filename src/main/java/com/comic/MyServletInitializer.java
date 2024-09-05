@@ -1,8 +1,8 @@
-package com.tallerwebi;
+package com.comic;
 
-import com.tallerwebi.config.DatabaseInitializationConfig;
-import com.tallerwebi.config.HibernateConfig;
-import com.tallerwebi.config.SpringWebConfig;
+import com.comic.config.DatabaseInitializationConfig;
+import com.comic.config.HibernateConfig;
+import com.comic.config.SpringWebConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class MyServletInitializer

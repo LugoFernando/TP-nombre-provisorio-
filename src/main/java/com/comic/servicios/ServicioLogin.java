@@ -1,6 +1,7 @@
-package com.tallerwebi.dominio;
+package com.comic.servicios;
 
-import com.tallerwebi.dominio.excepcion.UsuarioExistente;
+import com.comic.dominio.excepcion.UsuarioExistente;
+import com.comic.entidades.Usuario;
 
 public interface ServicioLogin {
 
